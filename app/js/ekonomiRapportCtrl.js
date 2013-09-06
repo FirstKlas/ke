@@ -119,4 +119,4 @@ angular.module('myApp.controllers').controller('ekonomiRapportCtrl', ['$scope', 
 
 
     };
-}
+}]);
