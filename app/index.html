@@ -12,6 +12,7 @@
     <script src="js/controllers.js"></script>
     <script src="js/ekonomiRapportCtrl.js"></script>
     <script src="js/loginCtrl.js"></script>
+    <script src="js/mainCtrl.js"></script>
     <script src="js/filters.js"></script>
     <script src="js/services.js"></script>
     <script src="lib/angular/angular-resource.js"></script>
@@ -21,7 +22,10 @@
     <!--<script src="lib/angularFire.js"></script>-->
 </head>
 <body>
-Rapportera | Arkiv<br>
+<div ng-controller="mainCtrl"></div>
+<span ng-show="user">Rapportera | Arkiv</span>
+
+
 <div ng-view></div>
 
 </body>

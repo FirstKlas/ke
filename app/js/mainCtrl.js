@@ -1,4 +1,4 @@
-angular.module('myApp.controllers').controller('loginCtrl', ['$scope', '$rootScope', 'angularFireAuth', 'Firebase', function ($scope, $rootScope, angularFireAuth, Firebase) {
+angular.module('myApp.controllers').controller('mainCtrl', ['$scope', '$rootScope', 'angularFireAuth', 'Firebase', function ($scope, $rootScope, angularFireAuth, Firebase) {
     var ref = new Firebase("https://ke.firebaseio.com/");
     angularFireAuth.initialize(ref, {scope: $rootScope, name: "user"});
 
